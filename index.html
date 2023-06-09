@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <main> 
+        <div class="container">
+            <nav>
+                <div id="display"></div>
+                <div>
+                    <input type="button" value="AC" class="botão" onclick="limpar()">
+                    <input type="button" value="<" class="botão" onclick="regredir()">
+                    <input type="button" value="%" class="botão" onclick="insert('%')">
+                    <input type="button" value="/" class="botão" onclick="insert('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" class="botão" onclick="insert('7')">
+                    <input type="button" value="8" class="botão" onclick="insert('8')">
+                    <input type="button" value="9" class="botão" onclick="insert('9')">
+                    <input type="button" value="X" class="botão" onclick="insert('*')">
+                </div>
+                <div>
+                    <input type="button" value="4" class="botão" onclick="insert('4')">
+                    <input type="button" value="5" class="botão" onclick="insert('5')">
+                    <input type="button" value="6" class="botão" onclick="insert('6')">
+                    <input type="button" value="-" class="botão" onclick="insert('-')">
+                </div>
+                <div>
+                    <input type="button" value="1" class="botão" onclick="insert('1')">
+                    <input type="button" value="2" class="botão" onclick="insert('2')">
+                    <input type="button" value="3" class="botão" onclick="insert('3')">
+                    <input type="button" value="+" class="botão" onclick="insert('+')">
+                </div>
+                <div>
+                    <input type="button" value="0" class="botão" onclick="insert('0')">
+                    <input type="button" value="," class="botão" onclick="insert('.')">
+                    <input type="button" value="=" class="igual" onclick="calculadora()">
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer>© BY C.O.K.A.O</footer>
+</body>
+</html>
